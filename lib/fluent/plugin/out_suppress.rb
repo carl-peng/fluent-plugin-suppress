@@ -48,7 +48,7 @@ module Fluent::Plugin
         end
 
         if slot.length >= @num
-          log.debug "suppressed record: #{record.to_json}"
+          #log.debug "suppressed record: #{record.to_json}"
           next
         end
 
